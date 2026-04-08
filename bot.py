@@ -168,80 +168,58 @@ We do not provide financial advice.
 
 These are projections and not guarantees.
 
-👉 Continue to the next section to strengthen your learning foundation. l
-""
-
-L5 = """📘 Lesson 5: Beginner Strategy
-
-Simple approach:
-
-1. Identify trend
-2. Wait for confirmation
-3. Enter trade
-4. Set Stop Loss
-5. Set Take Profit
-
-Tools:
-• Support & Resistance
-• Trend lines
-• RSI
-
-Stay consistent.
-
-“These are projections and not guarantees.”
+👉 Continue to the next section to strengthen your learning foundation.
 """
 
 FAQ = """❓ Frequently Asked Questions (FAQ)
 
-1. What is this bot about?
-Basic trading education.
+1. What is the purpose of this bot?
+This bot provides structured educational content to help users understand basic market concepts and how financial markets work.
+
+“These are projections and not guarantees.”
 
 ---
 
 2. Is this financial advice?
-No.
+No. All information provided is for educational purposes only and should not be considered financial or investment advice.
+
+“These are projections and not guarantees.”
 
 ---
 
-3. Can I make money?
-No guarantee. Risk involved.
+3. Can outcomes be guaranteed?
+No. Financial markets involve uncertainty, and outcomes can vary. There are no guaranteed results.
+
+“These are projections and not guarantees.”
 
 ---
 
-4. Do I need experience?
-No. Beginner friendly.
+4. Who is this bot for?
+This bot is designed for beginners who want to learn and understand market fundamentals in a simple and structured way.
+
+“These are projections and not guarantees.”
 
 ---
 
-5. Personal guidance?
-Not provided.
+5. Do you provide personal guidance?
+No. This bot does not offer individual support, recommendations, or personalized assistance.
+
+“These are projections and not guarantees.”
 
 ---
 
-6. Cost?
-Basic lessons are free.
+6. Is there any cost to use this bot?
+The educational content provided here is free to access and intended for general learning purposes.
+
+“These are projections and not guarantees.”
 
 ---
 
 ⚠️ Disclaimer:
-Trading involves risk.
+This content is for educational purposes only.
+We do not provide financial advice.
 
-“These are projections and not guarantees.”
-"""
-
-ADVANCED = """⭐️ Advanced (Optional)
-
-Once you complete all lessons:
-
-Focus on:
-• Chart patterns
-• Advanced indicators
-• Market psychology
-
-Remember:
-Learning takes time. Avoid rushing.
-
-“These are projections and not guarantees.”
+These are projections and not guarantees.
 """
 
 # ===== MENU =====
