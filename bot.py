@@ -14,31 +14,35 @@ users = {}
 
 # ===== TEXT =====
 
-DISCLAIMER = """⚠️ Disclaimer
+DISCLAIMER = """ ⚠️ Disclaimer
 
-This bot is created for educational purposes only.
-Trading involves financial risk and may result in loss.
-We do not provide financial advice, signals, or guaranteed results.
-
-By continuing, you confirm that you understand and accept this.
-"""
-
-WELCOME = """👋 Welcome to Market Learner Bot
-
-This bot is designed to help you understand the basics of trading step by step.
-
-📚 What you will learn:
-• What is trading
-• How markets work
-• Risk management
-• Beginner strategies
-
-⚠️ Disclaimer:
 This bot is created for educational purposes only.
 Trading involves financial risk and may result in losses.
+
+We do not provide financial advice, signals, or guaranteed outcomes.
+
+All content is for learning and informational use only.
+These are projections and not guarantees.
+
+By continuing, you confirm that you understand and accept this."""
+
+WELCOME = """👋 Welcome to Learn About Market
+
+This bot provides structured educational content to help you understand how markets work step by step.
+
+📚 What you will learn:
+• What trading is and how it works  
+• How price movement happens  
+• Basic chart concepts  
+• Risk awareness principles  
+
+Each lesson is designed to be simple, clear, and easy to follow.
+
+⚠️ Disclaimer:
+This content is for educational purposes only.
 We do not provide financial advice.
 
-“These are projections and not guarantees.”
+These are projections and not guarantees.
 
 👇 Choose a lesson to begin:
 """
@@ -47,74 +51,125 @@ We do not provide financial advice.
 
 L1 = """📘 Lesson 1: What is Trading?
 
-Trading means buying and selling financial assets like:
-• Stocks
-• Forex (currencies)
-• Crypto
+Trading is the process of buying and selling financial assets based on changes in price over time.
 
-The goal is simple:
-Buy low and sell high.
+These assets can include:
+• Stocks (shares of companies)  
+• Forex (currency pairs)  
+• Crypto (digital assets)  
 
-There are two main types:
-• Short-term trading
-• Long-term investing
+📊 Key Idea:
+Prices in any market move because of supply (selling pressure) and demand (buying interest).
 
-⚠️ Trading is not a guaranteed way to make money.
+📌 Example:
+If more people want to buy an asset, demand increases and the price may rise.  
+If more people want to sell, supply increases and the price may fall.
 
-“These are projections and not guarantees.”
+🧠 Why it matters:
+Understanding how and why prices move is the foundation for learning any market concept.
+
+There are different approaches:
+• Short-term trading (focused on quick price changes)  
+• Long-term investing (focused on gradual growth over time)
+
+⚠️ This content is for educational purposes only.
+We do not provide financial advice.
+
+These are projections and not guarantees.
+
+👉 Continue to Lesson 2 to learn how markets move.
 """
 
 L2 = """📘 Lesson 2: How Markets Work
 
-Markets move based on:
-• Supply and demand
-• News and global events
-• Economic data
+Financial markets move based on the interaction between buyers and sellers.
 
-📈 Price rises when demand is high  
-📉 Price falls when supply is high  
+📊 Key Idea:
+The price of an asset changes depending on supply (selling pressure) and demand (buying interest).
 
-Types of markets:
-• Forex
-• Stock market
-• Cryptocurrency market
+When demand is higher than supply, prices may rise 📈  
+When supply is higher than demand, prices may fall 📉  
 
-“These are projections and not guarantees.”
+📌 What influences markets:
+• Economic data (interest rates, inflation, employment)  
+• Global news and events  
+• Market sentiment (how traders feel about the market)  
+
+📌 Example:
+If positive economic news is released, more buyers may enter the market → demand increases → price may rise.  
+If negative news appears, more sellers may enter → supply increases → price may fall.
+
+🧠 Why it matters:
+Understanding what moves the market helps you interpret price behavior instead of guessing.
+
+Types of markets include:
+• Forex (currency exchange)  
+• Stock market (company shares)  
+• Cryptocurrency market (digital assets)  
+
+⚠️ This content is for educational purposes only.
+We do not provide financial advice.
+
+These are projections and not guarantees.
+
+👉 Continue to Lesson 3 to learn about price movement patterns.
 """
 
 L3 = """📘 Lesson 3: Trading Platforms
 
-To start trading, you need a platform.
+A trading platform is a digital tool that allows users to view market data and interact with financial markets.
 
-Examples:
-• MetaTrader
-• Binance
-• TradingView
+These platforms are commonly used to:
+• Monitor price movements  
+• View charts and market trends  
+• Practice understanding how markets behave  
 
-You can:
-• Open trades
-• Analyze charts
-• Manage funds
+📊 Key Idea:
+A platform acts as an interface between the user and the market, providing tools to observe and analyze price activity.
 
-Always choose reliable platforms.
+📌 Example:
+A user can open a chart on a platform to study how prices move over time and identify patterns in market behavior.
 
-“These are projections and not guarantees.”
+🧠 Why it matters:
+Choosing a well-known and reliable platform helps ensure a smoother and more secure learning experience.
+
+There are different types of platforms available, each designed for various markets such as currencies, stocks, or digital assets.
+
+⚠️ This content is for educational purposes only.
+We do not provide financial advice or platform recommendations.
+
+These are projections and not guarantees.
+
+👉 Continue to Lesson 4 to learn about risk awareness.”
 """
 
-L4 = """📘 Lesson 4: Risk Management
+L4 = """📘 Lesson 4: Risk Awareness
 
-Risk management helps protect your money.
+Risk awareness is the process of understanding and managing potential losses when observing or participating in financial markets.
 
-Rules:
-• Risk only 1–2% per trade
-• Use Stop Loss
-• Avoid overtrading
+📊 Key Idea:
+Every market activity involves uncertainty, and outcomes cannot be predicted with certainty.
 
-Example:
-If you have $100, risk only $1–$2.
+📌 Important Concepts:
+• Exposure: the amount involved in a decision  
+• Loss control: limiting potential downside  
+• Consistency: avoiding emotional or impulsive actions  
 
-“These are projections and not guarantees.”
-"""
+📌 Example:
+If a person allocates a small portion of their total capital to a single idea, the overall impact of a negative outcome may be reduced.
+
+🧠 Why it matters:
+Understanding risk helps build discipline and encourages a more structured approach to learning about markets.
+
+Developing awareness of risk is essential before exploring more advanced concepts.
+
+⚠️ This content is for educational purposes only.
+We do not provide financial advice.
+
+These are projections and not guarantees.
+
+👉 Continue to the next section to strengthen your learning foundation. l
+""
 
 L5 = """📘 Lesson 5: Beginner Strategy
 
@@ -195,7 +250,6 @@ def menu():
     kb = ReplyKeyboardMarkup(resize_keyboard=True)
     kb.row("📘 Lesson 1", "📘 Lesson 2")
     kb.row("📘 Lesson 3", "📘 Lesson 4")
-    kb.row("📘 Lesson 5", "⭐️ Advanced")
     kb.row("❓ FAQ")
     return kb
 
